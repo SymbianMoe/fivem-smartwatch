@@ -3,7 +3,7 @@ fx_version "cerulean"
 description "Basic Smart Watch For FiveM"
 author "SymbianMoe"
 version '1.0.0'
-repository ''
+repository 'https://github.com/SymbianMoe/fivem-smartwatch'
 
 lua54 'yes'
 
