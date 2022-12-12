@@ -1,0 +1,88 @@
+.keypad {
+    position: relative;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.keybad-container {
+    display: flex;
+    gap :5px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.keybad-container div {
+    display: flex;
+    background-color: rgb(77, 77, 77);
+    width: 60px;
+    height: 40px;
+    padding : 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.keybad-container div:hover {
+    transform: scale(1.2);
+    background-color: rgb(39, 39, 39);
+}
+.input-container {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.input-container div{
+    background-color: gray;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.footer {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.zero-btn {
+    display: flex;
+    background-color: rgb(77, 77, 77);
+    width: 60px;
+    height: 40px;
+    padding : 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.zero-btn:hover {
+    background-color: rgb(39, 39, 39);
+    transform: scale(1.2);
+}
+.delete-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+.btn {
+    display: flex;
+    width: 60px;
+    height: 40px;
+    padding : 10px;
+    color: red;
+    border-radius: 10px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.btn:hover{
+    transform: scale(1.2);
+    background-color: rgb(77, 77, 77);
+    font-size: 30px;
+}

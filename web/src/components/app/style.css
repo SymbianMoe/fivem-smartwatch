@@ -1,0 +1,25 @@
+.watch {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+  .watch-frame{
+    width: 400px;
+  }
+  .watch-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .watch-bg {
+    background-color: black;
+    position: absolute;
+    top: 145px;
+    left: 40px;
+    width: 250px;
+    border-radius: 20%;
+    height: 318px;
+    color: white;
+    padding: 30px;
+  }

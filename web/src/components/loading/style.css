@@ -1,0 +1,24 @@
+.loading-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.apple-logo {
+    width: 64px;
+}
+.loading-bar {
+    margin-top: 40px;
+    width: 60%;
+    background-color: gray;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.loading-progress {
+    background-color: white;
+    height: 100%;
+    transition: 0.5s;
+}
